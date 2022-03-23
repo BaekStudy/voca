@@ -1,7 +1,6 @@
-import "./App.css";
-import Hello from "./component/Hello";
-import Welcome from "./component/Welcome";
-import ParentState from "./component/ParentState";
+import Hello from "./component/basicTheory/Hello";
+import Welcome from "./component/basicTheory/Welcome";
+import ParentState from "./component/basicTheory/ParentState";
 
 function App() {
   return (
