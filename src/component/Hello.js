@@ -4,16 +4,17 @@ import World from "./World";
 
 function Hello() {
   return (
-    <EmptyContainer>
+    <Container>
       <div className="Wrapper">
         <h1>Hello</h1>
         <World />
+        <World />
       </div>
-    </EmptyContainer>
+    </Container>
   );
 }
 
-const EmptyContainer = styled("EmptyContainer")`
+const Container = styled("div")`
   .Wrapper {
     border: 5px solid yellow;
     display: flex;

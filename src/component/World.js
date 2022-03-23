@@ -3,14 +3,19 @@ import styled from "styled-components";
 
 function World() {
   return (
-    <WorldContainer>
-      <h1>World</h1>
-    </WorldContainer>
+    <Container>
+      <div className="wrapper">
+        <h1>World</h1>
+      </div>
+    </Container>
   );
 }
 
-const WorldContainer = styled("WorldContainer")`
-  border: 1px solid black;
+const Container = styled("div")`
+  .wrapper {
+    border: 1px solid black;
+    margin: 0px 3px;
+  }
 `;
 
 export default World;
