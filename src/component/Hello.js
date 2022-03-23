@@ -1,18 +1,27 @@
 import React from "react";
 import styled from "styled-components";
+import World from "./World";
 
 function Hello() {
   return (
-    <HelloContainer>
-      <h1>Hello</h1>
-    </HelloContainer>
+    <EmptyContainer>
+      <div className="Wrapper">
+        <h1>Hello</h1>
+        <World />
+      </div>
+    </EmptyContainer>
   );
 }
 
-const HelloContainer = styled("h1")`
-  color: blue;
-  padding: 10px;
-  margin: 10px;
+const EmptyContainer = styled("EmptyContainer")`
+  .Wrapper {
+    border: 5px solid yellow;
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    margin: 0 5px;
+  }
 `;
 
 export default Hello;
