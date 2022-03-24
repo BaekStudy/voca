@@ -1,15 +1,17 @@
 import Hello from "./component/basicTheory/Hello";
 import Welcome from "./component/basicTheory/Welcome";
 import ParentState from "./component/basicTheory/ParentState";
+import MapPractice from "./component/basicTheory/MapPractice";
 
 function App() {
   return (
     <>
       <Hello />
-      <Hello />
       <Welcome />
       <hr />
       <ParentState />
+      <hr />
+      <MapPractice />
     </>
   );
 }

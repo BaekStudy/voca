@@ -16,7 +16,7 @@ function ChildProps({ name_, age_ }) {
 const Container = styled("div")`
   .wrapper {
     width: 500px;
-    height: 100px;
+    height: 150px;
     border: solid 1px black;
     background-color: blue;
     margin: 50px auto;

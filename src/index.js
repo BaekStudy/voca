@@ -6,7 +6,7 @@ import VocaApp from "./VocaAPP";
 
 ReactDOM.render(
   <React.StrictMode>
-    <VocaApp />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
