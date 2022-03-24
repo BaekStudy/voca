@@ -1,19 +1,13 @@
-import Hello from "./component/basicTheory/Hello";
-import Welcome from "./component/basicTheory/Welcome";
-import ParentState from "./component/basicTheory/ParentState";
-import MapPractice from "./component/basicTheory/MapPractice";
+import React from "react";
+import Header from "./component/voca/Header";
 
-function App() {
+function vocaAPP() {
   return (
     <>
-      <Hello />
-      <Welcome />
-      <hr />
-      <ParentState />
-      <hr />
-      <MapPractice />
+      <Header />
+      <div>보카APP</div>
     </>
   );
 }
 
-export default App;
+export default vocaAPP;

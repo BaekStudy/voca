@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
-import VocaApp from "./VocaAPP";
+import BasciTheoryApp from "./BasciTheoryApp";
+import App from "./APP";
 
 ReactDOM.render(
   <React.StrictMode>
